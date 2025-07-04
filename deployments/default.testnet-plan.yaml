@@ -10,23 +10,23 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-registry
-            remap-sender: ST3FF58QBQM42QHSXCXWWHZ7KSJRS67A371YCHA4W
+            remap-sender: ST8VARH58507NP3EB1B1F91627SXB8TWBBBDREN3
             remap-principals:
-              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST3FF58QBQM42QHSXCXWWHZ7KSJRS67A371YCHA4W
+              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST8VARH58507NP3EB1B1F91627SXB8TWBBBDREN3
             cost: 112090
             path: "./.cache/requirements/ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-registry.clar"
             clarity-version: 3
         - requirement-publish:
             contract-id: ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token
-            remap-sender: ST3FF58QBQM42QHSXCXWWHZ7KSJRS67A371YCHA4W
+            remap-sender: ST8VARH58507NP3EB1B1F91627SXB8TWBBBDREN3
             remap-principals:
-              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST3FF58QBQM42QHSXCXWWHZ7KSJRS67A371YCHA4W
+              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST8VARH58507NP3EB1B1F91627SXB8TWBBBDREN3
             cost: 47600
             path: "./.cache/requirements/ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token.clar"
             clarity-version: 3
         - contract-publish:
             contract-name: sats-staker
-            expected-sender: ST3FF58QBQM42QHSXCXWWHZ7KSJRS67A371YCHA4W
+            expected-sender: ST8VARH58507NP3EB1B1F91627SXB8TWBBBDREN3
             cost: 7794
             path: contracts/sats-staker.clar
             anchor-block-only: true
